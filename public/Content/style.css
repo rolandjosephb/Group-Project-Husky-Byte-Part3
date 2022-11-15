@@ -17,6 +17,10 @@
     height: 50vh;
    
 }
+
+.pic{
+    align-self:center;
+}
 .header {
  
     text-align: center;
