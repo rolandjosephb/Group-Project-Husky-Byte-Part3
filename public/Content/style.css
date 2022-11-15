@@ -4,14 +4,42 @@
     list-style: none;
        text-decoration: none;
 }
-
+.list{
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+     
+      
+    }
 .page {
     display: flex;
     width: 100vw;
     height: 50vh;
    
 }
-
+.header {
+ 
+    text-align: center;
+    border: 2px solid black;
+  }
+  
+  
+  .column {
+    float: left;
+  width: 50%;
+  border: 2px solid black;
+  height: 100%;
+   
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    border: 2px solid black;
+    
+  }
 .main_container{
     width: 1000px;
     display: block;
@@ -105,5 +133,6 @@
     background-image: url("/Assets/images/services9.jpg");
 }
 h1{background-color: cornflowerblue; text-align: center;}
-h2,h4,h5,h3 {text-align: center;}
+h2,h4,h5,h3  {text-align: center;}
 .list{text-align: center;font-size: 30px; text-decoration: solid; }
+li{text-align: auto;}
